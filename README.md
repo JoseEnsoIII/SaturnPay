@@ -1,45 +1,12 @@
-# [Vite Theme Free](https://store.vuetifyjs.com/products/vite-theme-free)
-A free Vuetify 3 theme using Vite.
+Here's a completed README file based on the information provided, with an emphasis on your contributions to the project:
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.com/invite/s93b7Fv)
+---
 
-**Vite Theme Free** is a beautiful resource built over [Vite](https://vitejs.dev/guide/), [Vuetify 3](https://vuetifyjs.com/) and [Vuejs 3](https://vuejs.org/). It will help you get started and quickly developing your Vuetify 3 Vite applications in no time. Using the Vite theme is pretty simple but requires basic knowledge of Javascript, [Vuejs](https://vuejs.org) and [Vite](https://vitejs.dev/guide/).
+# Vite Theme Free
 
-## Getting Started
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.com/invite/s93b7Fv)
 
-- Install Nodejs from the official [Nodejs page](https://nodejs.org/en/)
-- Install Yarn from the official [Yarn installation page](https://classic.yarnpkg.com/en/docs/install/#windows-stable).
-- Unzip the `vite-theme-free.zip` file downloaded from the Vuetify store
-- Create a folder named `vite-theme` and unzip the `vite-theme-free.zip` file provided by the previous step
-- Open your terminal and navigate to the `vite-theme` directory
-- Run `yarn install` to install the project's dependencies
-- Run `yarn dev` to start a local development server
-
-You can also run additional tasks such as
-
-- `yarn run build` to build your app for production
-- `yarn run serve` to serve your production app
-- `yarn run lint` to run linting.
-
-## Vuetify
-
-Vuetify is an Open Source UI Library that is developed exactly according to Material Design spec. Every component is handcrafted to bring you the best possible UI tools to your next great app. The development doesn't stop at the core components outlined in Google's spec. Through the support of community members and sponsors, additional components will be designed and made available for everyone to enjoy.
-
-The documentation for **Vuetify** is hosted [here](https://vuetifyjs.com/).
-
-***Not all components that are available in this project are part of the theme and may be a default Vuetify component***
-
-## Vite
-
-Vite is a build tool that significantly improves the front-end development experience. You can use Vite to set up a development environment for frameworks like Vue and React, and even for a vanilla JavaScript app with a dev server and hot reloading in just three commands. It also easily integrates with [TypeScript](https://vitejs.dev/guide/features.html#typescript).
-
-## Vue-cli
-
-We use the latest 3.x [Vue CLI](https://github.com/vuejs/vue-cli) which aims to reduce project configuration
-to as little as possible. Almost everything is inside `package.json` + some other related files such as
-`.babel.config.js`, `.eslintrc.js` and `.postcssrc.js`.
-
-Let us know what you think and what we can improve below. And good luck with development!
+**Vite Theme Free** is a sleek, responsive theme built with [Vite](https://vitejs.dev/guide/), [Vuetify 3](https://vuetifyjs.com/), and [Vue.js 3](https://vuejs.org/). This theme is designed to streamline the development of Vuetify 3 Vite applications, offering a robust starting point for your projects. With a focus on simplicity and speed, it caters to developers with a foundational understanding of JavaScript, Vue.js, and Vite.
 
 ## Table of Contents
 
@@ -52,15 +19,56 @@ Let us know what you think and what we can improve below. And good luck with dev
 - [Reporting Issues](#reporting-issues)
 - [Technical Support or Questions](#technical-support-or-questions)
 - [Licensing](#licensing)
+- [Contributors](#contributors)
 - [Useful Links](#useful-links)
 
 ## Demo
 
-- [Demo page](https://store.vuetifyjs.com/products/vite-theme-free/preview)
+- [Live Preview](https://theme-vite-free.vercel.app/)
+
+## Quick Start
+
+To get started with the **Vite Theme Free**, follow these steps:
+
+1. **Install Node.js:**  
+   Download and install Node.js from the [official Node.js page](https://nodejs.org/en/).
+
+2. **Install Yarn:**  
+   Download and install Yarn from the [Yarn installation page](https://classic.yarnpkg.com/en/docs/install/#windows-stable).
+
+3. **Download the Theme:**  
+   Unzip the `vite-theme-free.zip` file that you downloaded from the Vuetify store.
+
+4. **Set Up the Project:**
+   - Create a new folder named `vite-theme` and unzip the `vite-theme-free.zip` file into this folder.
+   - Open your terminal and navigate to the `vite-theme` directory.
+   - Run `yarn install` to install all the project's dependencies.
+
+5. **Development Server:**
+   - Run `yarn dev` to start a local development server and begin working on your application.
+
+### Additional Tasks
+
+- **Build for Production:**  
+  Run `yarn run build` to create a production build of your app.
+
+- **Serve the Production Build:**  
+  Run `yarn run serve` to serve the production build locally.
+
+- **Linting:**  
+  Run `yarn run lint` to check your code for errors and adherence to coding standards.
+
+## Documentation
+
+For detailed instructions on using and customizing **Vite Theme Free**, refer to the official documentation:
+
+- **Vuetify Documentation:** [Vuetify](https://vuetifyjs.com/)
+- **Vite Documentation:** [Vite](https://vitejs.dev/guide/)
+- **Vue.js Documentation:** [Vue.js](https://vuejs.org/)
 
 ## File Structure
 
-Within the download you'll find the following directories and files:
+The file structure of **Vite Theme Free** is organized as follows:
 
 <details>
 
@@ -88,43 +96,53 @@ vite-theme-free/
 
 ## Browser Support
 
-| Browser | Status |
-| - | - |
-| Chromium (Chrome, Edge) | ✅ Supported * |
-| Firefox | ✅ Supported * |
-| Safari 15.4+ | ✅ Supported |
-| Safari 13. | ❗ Requires polyfill |
-| Edge <79 | ⛔ Not supported |
-| Internet Explorer | ⛔ Not supported |
+**Vite Theme Free** supports the following browsers:
+
+| Browser                 | Status          |
+| ----------------------- | --------------- |
+| Chromium (Chrome, Edge) | ✅ Supported    |
+| Firefox                 | ✅ Supported    |
+| Safari 15.4+            | ✅ Supported    |
+| Safari 13+              | ❗ Requires polyfill |
+| Edge <79                | ⛔ Not supported |
+| Internet Explorer       | ⛔ Not supported |
 
 ## Resources
 
-- [Live Preview](https://theme-vite-free.vercel.app/)
-- Product Page: [Product](https://store.vuetifyjs.com/products/vite-theme-free)
-- Vuetify Documentation is [Here](https://vuetifyjs.com/)
-- Contact: [Contact](mailto:support@vuetifyjs.com)
+- **Live Preview:** [Demo page](https://theme-vite-free.vercel.app/)
+- **Product Page:** [Product](https://store.vuetifyjs.com/products/vite-theme-free)
+- **Vuetify Documentation:** [Vuetify](https://vuetifyjs.com/)
+- **Contact Support:** [Email Support](mailto:support@vuetifyjs.com)
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Vite Theme Free** theme. Here is some advice for our users that want to report an issue:
+If you encounter any issues or bugs, please report them through our GitHub Issues page. When reporting an issue, please provide:
 
-1. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-2. Some issues may be browser specific, so specifying what browser you encountered the issue will be helpful.
+1. A detailed description of the problem.
+2. Steps to reproduce the issue.
+3. Information about your browser and operating system.
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please reach out in [Discord](https://discord.com/invite/s93b7Fv).
+For questions or technical support, please join our [Discord community](https://discord.com/invite/s93b7Fv).
 
 ## Licensing
 
-- Copyright 2023 Vuetify <https://vuetifyjs.com/>
-- Vuetify [License Information](https://github.com/vuetifyjs/vuetify/blob/master/LICENSE.md)
+- **Copyright 2023 Vuetify**  
+  This project is licensed under the terms of the [Vuetify License](https://github.com/vuetifyjs/vuetify/blob/master/LICENSE.md).
 
+## Contributors
+
+This project was developed and maintained by the Vuetify team with significant contributions from external developers, including:
+
+- **Enso Jose III**  
+  - Primary contributor to 80% of the project pages, including the login page, while working as a Support Frontend Developer at Quantum.
+  
 ## Useful Links
 
 - [Vuetify Documentation](https://vuetifyjs.com/)
 - [Vuetify Store](https://store.vuetifyjs.com/)
-- [Discord](https://community.vuetifyjs.com)
+- [Discord Community](https://community.vuetifyjs.com)
 - [Twitter](https://twitter.com/vuetifyjs)
 
 <br>
