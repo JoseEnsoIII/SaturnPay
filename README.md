@@ -136,8 +136,8 @@ For questions or technical support, please join our [Discord community](https://
 This project was developed and maintained by the Vuetify team with significant contributions from external developers, including:
 
 - **Enso Jose III**  
-  - Primary contributor to 80% of the project pages, including the login page, while working as a Support Frontend Developer at Quantum-2024.
-  
+  - Primary contributor to 80% of the project pages, including the login page, while working as a Support Frontend Developer at Quantum-2024.                                              
+                                               
 ## Useful Links
 
 - [Vuetify Documentation](https://vuetifyjs.com/)
